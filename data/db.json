@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "image": "/images/img8.jpeg",
+      "category": "3Bedroom apartment",
+      "location": "State housing",
+      "price": "N1,500,000",
+      "contact": "07067568978",
+      "id": "1"
+    },
+    {
+      "image": "/images/img2.jpg",
+      "category": "Selfcon",
+      "location": "Marian",
+      "price": "N300,000",
+      "contact": "07009568978",
+      "id": "2"
+    },
+    {
+      "image": "/images/img3.jpeg",
+      "category": "2Bedroom apartment",
+      "location": "Akai Efa",
+      "price": "N700,000",
+      "contact": "08067568978",
+      "id": "3"
+    },
+    {
+      "image": "/images/img4.jpeg",
+      "category": "1Bedroom apartment",
+      "location": "State housing",
+      "price": "N500,000",
+      "contact": "08057988978",
+      "id": "4"
+    },
+    {
+      "image": "/images/img5.jpg",
+      "category": "1Bedroom apartment",
+      "location": "Atimbo",
+      "price": "N550,000",
+      "contact": "09063568978",
+      "id": "5"
+    },
+    {
+      "image": "/images/img6.jpg",
+      "category": "3Bedroom apartment",
+      "location": "Etagbor",
+      "price": "N1,800,000",
+      "contact": "07097468978",
+      "id": "6"
+    },
+    {
+      "image": "/images/img7.jpg",
+      "category": "3Bedroom apartment",
+      "location": "Parliamentary",
+      "price": "N1,700,000",
+      "contact": "0905827978",
+      "id": "7"
+    },
+    {
+      "id": "641f",
+      "image": "C:\\fakepath\\Calabar.jpg",
+      "category": "2Bedroom apartment",
+      "price": "N600,000",
+      "location": "Ekorinim",
+      "contact": "07085213458"
+    }
+  ]
+}
