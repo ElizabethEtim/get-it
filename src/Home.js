@@ -15,7 +15,7 @@ const Home = () => {
                 <br />and find what's right for you!
             </p>
             <div>
-                {error && <div>{ error }</div>}
+                {error && <>{ error }</>}
                 { isPending && <div>Loading...</div> }
                 {items &&<ItemList items={items}/>}
             </div>
