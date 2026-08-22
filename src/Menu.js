@@ -1,6 +1,6 @@
 import { useState } from "react";
 //import { Squash as hamburger } from "hamburger-react";
-import {FaBars} from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
 import './index.css';
 
 const MenuDropDown = () => {
@@ -16,9 +16,19 @@ const MenuDropDown = () => {
 
             {isOpen && (
                 <ul className="dropdown-menu">
-                    <p className="cat">Categories</p>
+                    <p className="cat">
+                        <button
+                            type="button"
+                            className="close-menu"
+                            aria-label="Close categories menu"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            X
+                        </button>
+                        Categories
+                    </p>
                     <li>Rent a house
-                        {/*<li>Selcon</li>
+                        {/*<li>Selfcon</li>
                         <li>One Bedroom</li>
                         <li>Two Bedroom </li>*/}
                     </li>

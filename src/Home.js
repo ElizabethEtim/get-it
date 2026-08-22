@@ -6,7 +6,7 @@ const Home = () => {
     const{ data: items, isPending, error} = useFetch('http://localhost:8000/items')
     return ( <div className="home">
             <div className="background-image">
-                Modern Property Management <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For Landlords, 
+                Modern Property Management <br />For Landlords, 
                 <br /> Property Managers And Renters.
             </div>
             <p className="find"> Find what best suits you</p>

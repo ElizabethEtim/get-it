@@ -6,10 +6,14 @@ import MenuDropDown from './Menu';
 const Navbar = () => {
 return ( 
         <nav className="navbar">
-            <div className="menu-container">
-                <MenuDropDown />
+            <div className="navbar-left">
+                <div className="menu-container">
+                    <MenuDropDown />
+                </div>
+                <Link to="/" aria-label="Go to home">
+                    <img src={logo} alt="logo" className="logo"/>
+                </Link>
             </div>
-            <img src={logo} alt="logo" className="logo"/>
             <h2>
                 <Link to="/">Home</Link>
                 <Link to="/Post" >Post</Link>

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Details = () => {
     const { id } = useParams();
 
-/*changable parts of the route is known as the route parameter, its the same page or component but different blog id
+/*changeable parts of the route is known as the route parameter, its the same page or component but different blog id
 ( eg- /blogs/123). useParams allow us to grab route parameters from the route*/ 
 
     const {data: item, error, isPending}  = useFetch('http://localhost:8000/items/' + id);
@@ -25,7 +25,7 @@ const Details = () => {
             { error && <div>{ error }</div> }
             { item && (
                 <article>
-                     <div className="commited">Get It is committed to ensuring your needs are satisfied.  We are 
+                     <div className="committed">Get It is committed to ensuring your needs are satisfied.  We are 
                         continuously working to improve the accessibility of our web experience for everyone,  
                         and we welcome feedback. If you wish to give a feedback or report an issue, 
                         please let us know <a href="mailto:lizzyetim961@gmail.com">Email</a>.
