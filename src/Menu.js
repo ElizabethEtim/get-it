@@ -27,20 +27,20 @@ const MenuDropDown = () => {
                         </button>
                         Categories
                     </p>
-                    <li>Rent a house
+                    <li>Rent an Apartment
                         {/*<li>Selfcon</li>
                         <li>One Bedroom</li>
                         <li>Two Bedroom </li>*/}
                     </li>
-                    <li>Rent an item</li>
-                    <li>Find a service</li>
-                    <li>Land purchase</li>
-                    <li>House purchase</li>
-                    <li>Furniture purchase</li>
-                    <li>Fairly used</li>
-                    <li>Nice treat</li>
+                    <li>Rent an Item</li>
+                    <li>Find a Service</li>
+                    <li>Land Purchase</li>
+                    <li>House Purchase</li>
+                    <li>Furniture Purchase</li>
+                    <li>Fairly Used</li>
+                    <li>Nice Treat</li>
                     <div className="info"><li>
-                        About us
+                        About Us
                     </li>
                     <li>
                         Contact
