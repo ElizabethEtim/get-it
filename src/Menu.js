@@ -37,6 +37,7 @@ const MenuDropDown = () => {
                     <li>Land Purchase</li>
                     <li>House Purchase</li>
                     <li>Furniture Purchase</li>
+                    <li>Item Purchase</li>
                     <li>Fairly Used</li>
                     <li>Nice Treat</li>
                     <div className="info"><li>

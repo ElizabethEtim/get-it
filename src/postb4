@@ -110,3 +110,20 @@ attach a click event to the button itself*/
 }
  
 export default Post;
+
+
+
+
+----------------------------------------------------
+
+
+<div className="form-field">
+          <label htmlFor="title">Title</label>
+          <input
+            id="title"
+            type="text"
+            required
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
+          />
+        </div>
