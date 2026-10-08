@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { FaCamera } from "react-icons/fa";
 
 const Post = () => {
@@ -150,18 +150,6 @@ const Post = () => {
         </form>
       </div>
 
-      <footer>
-        <Link to="/about">
-          <p className="about-us">About us</p>
-        </Link>
-        <Link to="/contact">
-          <p className="contact-us">Contact</p>
-        </Link>
-        <p className="mail">
-          <a href="mailto:lizzyetim961@gmail.com">Email</a>
-        </p>
-        <p className="copy">&copy; {new Date().getFullYear()} Get It. All Rights Reserved.</p>
-      </footer>
     </div>
   );
 };

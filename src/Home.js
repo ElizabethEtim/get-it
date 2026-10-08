@@ -40,22 +40,12 @@ const Home = () => {
                 {error && <>{ error }</>}
                 { isPending && <div>Loading...</div> }
                 {items.length > 0 ? <ItemList items={items}/> : <p className="search-empty">No properties match your search.</p>}
+            </div><br/><br/><br/><br/><br/>
+            <div className="home-cta-banner">
+                <h2>Have a Property or Item to Rent Out?</h2>
+                <p>Reach thousands of renters in Calabar in minutes.</p>
+                <Link to="/post" className="cta-btn">Post Your Listing</Link>
             </div>
-            <footer>
-                <Link to= {`about`}>
-                    <p className="about-us">About us</p>
-                </Link>
-                <Link to={`contact`}>
-                    <p className="contact-us">Contact</p>
-                </Link>
-                <p className="mail">
-                    <a href="mailto:lizzyetim961@gmail.com">Email</a>
-                </p>
-
-        <p className="copy">
-            &copy; {new Date().getFullYear()} Get It. All Rights Reserved.
-        </p>
-                </footer>
         </div>
      );
 }
