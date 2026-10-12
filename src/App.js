@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <div className="content">
+        <main className="content content-wrap">
           <Routes>
             <Route path= "/" element={<Home />} />
             <Route path= "/post" element={<Post />} />
@@ -22,8 +22,8 @@ function App() {
             <Route path= "/contact" element={<Contact />} />
             <Route path= "*" element={<Notfound />} />
           </Routes>
-          <Footer />
-        </div>
+        </main>
+        <Footer />
       </div>
     </Router>
   );
