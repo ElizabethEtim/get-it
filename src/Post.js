@@ -1,12 +1,12 @@
 import { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {
-  FaHome
-  /*FaCamera,
+  FaCamera,
   FaCheckCircle,
-  FaHeart,
-  FaMapMarkerAlt,
-  FaTag,*/
+  //FaHeart,
+  FaHome,
+  //FaMapMarkerAlt,
+  FaTag,
 } from "react-icons/fa";
 import postBannerImage from "./Assets/image.png";
 
